@@ -1,4 +1,4 @@
-﻿// AliAkbar Mohsennejad 40008873
+
 #include <systemc.h>
 
 SC_MODULE(XORGate) {
