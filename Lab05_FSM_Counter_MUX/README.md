@@ -37,3 +37,26 @@ To design and simulate a system-level model consisting of:
  Reset         ↑               ↑
  CLK ----------+---------------+
 ```
+---
+
+
+[MUX] Selected Output: 0
+[MUX] Selected Output: 0
+
+Info: (I702) default timescale unit used for tracing: 1 ps (fsm_counter_waveform.vcd)
+[Counter] Output: 0
+[FSM] Mode: 1, State: 0
+[Counter] Output: 0
+[Testbench] Mode: LOAD, Data In: 42
+[FSM] Mode: 2, State: 1
+[Counter] Output: 42
+[MUX] Selected Output: 0
+[Testbench] Mode: COUNT_UP
+[FSM] Mode: 3, State: 2
+[Counter] Output: 43
+[MUX] Selected Output: 42
+[Testbench] Mode: COUNT_DOWN
+[FSM] Mode: 0, State: 3
+[Counter] Output: 42
+[MUX] Selected Output: 43
+[Testbench] Mode: IDLE
