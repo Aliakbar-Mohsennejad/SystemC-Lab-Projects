@@ -15,7 +15,7 @@ To design and simulate a system-level model consisting of:
 ---
 ## 🖼️ System Overview
 
-<img src="module_interaction.jpg" alt="Module Interaction Diagram" width="700"/>
+<img src="Module-Interaction.jpg" alt="Module Interaction Diagram" width="700"/>
 
 ---
 ## 🧩 FSM Description
