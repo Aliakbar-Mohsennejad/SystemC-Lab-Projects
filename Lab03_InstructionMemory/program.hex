@@ -1,0 +1,8 @@
+# Sample instruction memory
+20100001 # addi $s0, $zero, 1
+
+
+20110002 # addi $s1, $zero, 2
+02304020 # add $t0, $s1, $s0
+8E120000 # lw $s2, 0($s0)
+AE130000 # sw $s3, 0($s0)
