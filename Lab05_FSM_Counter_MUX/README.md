@@ -13,7 +13,11 @@ To design and simulate a system-level model consisting of:
 - Signal tracing for simulation visualization using `sc_trace`
 
 ---
+## 🖼️ System Overview
 
+<img src="images/module_interaction.jpg" alt="Module Interaction Diagram" width="700"/>
+
+---
 ## 🧩 FSM Description
 
 | Mode | State      | Behavior                  |
@@ -38,8 +42,9 @@ To design and simulate a system-level model consisting of:
  CLK ----------+---------------+
 ```
 ---
+## ▶️ Sample Output
 
-
+```code
 [MUX] Selected Output: 0
 [MUX] Selected Output: 0
 
@@ -60,3 +65,10 @@ Info: (I702) default timescale unit used for tracing: 1 ps (fsm_counter_waveform
 [Counter] Output: 42
 [MUX] Selected Output: 43
 [Testbench] Mode: IDLE
+```
+---
+
+## 📊 Waveform Visualization
+<img src="images/fsm_counter_waveform.jpg" alt="Waveform Output" width="800"/>
+Use GTKWave or any compatible viewer to load the .vcd file and inspect signal transitions and timing.
+
