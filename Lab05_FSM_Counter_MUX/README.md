@@ -15,7 +15,7 @@ To design and simulate a system-level model consisting of:
 ---
 ## 🖼️ System Overview
 
-<img src="Module-Interaction.jpg" alt="Module Interaction Diagram" width="500"/>
+<img src="Module-Interaction.jpg" alt="Module Interaction Diagram" width="450"/>
 
 ---
 ## 🧩 FSM Description
@@ -69,6 +69,6 @@ Info: (I702) default timescale unit used for tracing: 1 ps (fsm_counter_waveform
 ---
 
 ## 📊 Waveform Visualization
-<img src="fsm_counter_waveform.jpg" alt="Waveform Output" width="800"/>
+<img src="fsm_counter_waveform.jpg" alt="Waveform Output" width="900"/>
 Use GTKWave or any compatible viewer to load the .vcd file and inspect signal transitions and timing.
 
