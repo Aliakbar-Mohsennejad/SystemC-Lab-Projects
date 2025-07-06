@@ -36,7 +36,7 @@ This project simulates a **multi-interrupt environment** in SystemC where three 
 
 ## 🖼️ Block Diagram
 
-<img src="irq_diagram.jpg" alt="Waveform Output" width="800"/>
+<img src="irq_diagram.jpg" alt="Waveform Output" width="400"/>
 
 ---
 
@@ -53,7 +53,7 @@ This project simulates a **multi-interrupt environment** in SystemC where three 
 
 ## 📊 Waveform Visualization
 
-<img src="irq_waveform.jpg" alt="Waveform Output" width="800"/>
+<img src="irq_waveform.jpg" alt="Waveform Output" width="950"/>
 
 Signals such as `IG1`, `IG2`, `IG3`, `IRQ`, and `clk` are traceable in the VCD file using **GTKWave**.
 
